@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoSpot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="black">#000000</color>
+
+    <string name="filter_prompt">Choose a filter</string>
+ 
+    <string-array name="filter_array">
+        <item>Food and Beverage</item>
+        <item>Transportation Freight and Warehousing</item>
+        <item>Gadgets and Electronics</item>
+        <item>Construction</item>
+        <item>Vehicle</item>
+        <item>Shopping and Specialty stores</item>
+        <item>Watchworks</item>
+    </string-array>
+    
+    <string-array name="places">
+        <item >ATM</item>
+        <item >Bank</item>
+        <item >Cafe</item>
+        <item >Fire-Station</item>
+        <item >Hospital</item>
+        <item >Pharmacy</item>
+        <item >Police</item>
+        <item >Restaurant</item>
+        <item >Shopping Mall</item>
+    </string-array>
+    
+</resources>

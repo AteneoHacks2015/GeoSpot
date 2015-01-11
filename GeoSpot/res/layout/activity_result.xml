@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/correctLabel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hi.ResultActivity" >
+
+    <TextView
+        android:id="@+id/correctPtsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/scrnobonText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:text="Correct Points"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timeBonLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/correctPtsLabel"
+        android:layout_below="@+id/correctPtsLabel"
+        android:layout_marginTop="54dp"
+        android:text="Time Bonus"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timebonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/timeBonLabel"
+        android:layout_alignBottom="@+id/timeBonLabel"
+        android:layout_alignLeft="@+id/scrnobonText"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/finalScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timebonText"
+        android:layout_below="@+id/timebonText"
+        android:layout_marginTop="91dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/scrnobonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultsLabel"
+        android:layout_below="@+id/resultsLabel"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="95dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/okbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultsLabel"
+        android:layout_below="@+id/finalScoreText"
+        android:layout_marginTop="67dp"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/resultsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="84dp"
+        android:text="Results"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/finalScoreText"
+        android:layout_toLeftOf="@+id/resultsLabel"
+        android:text="Total"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
